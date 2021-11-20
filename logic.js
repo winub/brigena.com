@@ -74,7 +74,7 @@ function shart(x, y){
     this.visible = true;
     this.draw = function(){
         ctx.beginPath();
-        ctx.fillStyle = "brown";
+        ctx.fillStyle = "green";
         ctx.moveTo(this.x, this.y + this.rad);
         ctx.arc(this.x,this.y,this.rad,0,Math.PI * 2, true);
         ctx.fill();
