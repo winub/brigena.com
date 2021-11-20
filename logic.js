@@ -17,9 +17,12 @@ var m = {
 function init(){
     window.onmousemove = function(e) {
         m.x = e.clientX;
-        m.y = e.clientY;
-        
+        m.y = e.clientY;  
     }    
+    window.ontouchmove = function(e) {
+        m.x = e.clientX;
+        m.y = e.clientY; 
+    }
     pineapple = {
         width: pineapple_src.width,
         height: pineapple_src.height,
