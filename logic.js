@@ -19,10 +19,6 @@ function init(){
         m.x = e.clientX;
         m.y = e.clientY;  
     }
-    window.ontouchstart = function(e) {
-        m.x = e.clientX;
-        m.y = e.clientY;
-    }
     pineapple = {
         width: pineapple_src.width,
         height: pineapple_src.height,
