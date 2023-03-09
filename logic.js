@@ -10,15 +10,17 @@ function clear() {
 }
 
 var m = {
-    x: 0,
-    y: 0
+    x: 50,
+    y: 50
 };
 
 function init(){
     window.onmousemove = function(e) {
         m.x = e.clientX;
-        m.y = e.clientY;  
-    }
+        m.y = e.clientY;
+        
+    } 
+  
     pineapple = {
         width: pineapple_src.width,
         height: pineapple_src.height,
